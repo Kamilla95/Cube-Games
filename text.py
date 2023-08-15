@@ -1,0 +1,10 @@
+from tkinter import *
+tk = Tk()
+canvas = Canvas(tk, width = 400, height = 400)
+canvas.pack()
+canvas.create_text(150, 100, text = 'Был один человек из Тулузы')
+canvas.create_text(130, 120, text = 'Что сидел на огромном арбузе', fill = 'red')
+canvas.create_text(150, 150, text = 'Он сказал: "Это ужас,', font=('Times', 15))
+canvas.create_text(200, 200, text = 'Но бывает и хуже:', font=('Helvetica', 20))
+canvas.create_text(220, 250, text = 'Вон мой братец сидит', font=('Courier', 22))
+canvas.create_text(220, 300, text = 'На медузе', font=('Courier', 30))
